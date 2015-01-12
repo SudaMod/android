@@ -4,6 +4,10 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com" />
+           
+  <remote name="suda"
+          fetch="https://github.com"
+          review=".." />         
 
   <remote  name="github"
            fetch=".."
@@ -556,5 +560,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="vendor/sm" name="SudaMod/android_vendor_sm" />
+  <project path="vendor/sm" remote="suda" name="SudaMod/android_vendor_sm" />
 </manifest>
