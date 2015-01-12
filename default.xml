@@ -21,11 +21,11 @@
            sync-c="true"
            sync-j="4" />
 
-  <project path="build" name="SudaMod/android_build" groups="pdk,tradefed" >
+  <project path="build" revision="sm-12.0" name="SudaMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="android" name="SudaMod/android" />
+  <project path="android" revision="sm-12.0" name="SudaMod/android" />
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
@@ -560,5 +560,5 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="vendor/sm" remote="suda" revision="cm-12.0" name="SudaMod/android_vendor_sm" />
+  <project path="vendor/sm" remote="suda" revision="sm-12.0" name="SudaMod/android_vendor_sm" />
 </manifest>
