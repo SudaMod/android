@@ -539,7 +539,7 @@
   <project path="prebuilts/sdk" name="platform/prebuilts/sdk" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="prebuilts/tools" name="platform/prebuilts/tools" groups="pdk,tools" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="sdk" name="platform/sdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
-  <project path="system/core" remote="suda" revision="cm-12.0" name="CyanogenMod/android_system_core" groups="pdk" />
+  <project path="system/core" remote="suda" revision="sm-1.0" name="SudaMod/android_system_core" groups="pdk" />
   <project path="system/extras" remote="suda" revision="cm-12.0" name="CyanogenMod/android_system_extras" groups="pdk" />
   <project path="system/extras/su" remote="suda" revision="sm-1.0" name="SudaMod/android_system_extras_su" />
   <project path="system/keymaster" remote="suda" revision="cm-12.0" name="CyanogenMod/android_system_keymaster" groups="pdk" />
