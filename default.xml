@@ -419,7 +419,7 @@
   <project path="packages/apps/BluetoothExt" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Browser" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Browser" />
   <project path="packages/apps/Calculator" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Calculator" />
-  <project path="packages/apps/Calendar" remote="suda" revision="cm-12.0" name="SudaMod/android_packages_apps_Calendar" />
+  <project path="packages/apps/Calendar" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Calendar" />
   <project path="packages/apps/Camera2" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/CertInstaller" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_CertInstaller" />
