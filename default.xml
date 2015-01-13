@@ -333,7 +333,7 @@
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="frameworks/av" remote="suda" revision="cm-12.0" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" remote="suda" revision="cm-12.0" name="CyanogenMod/android_frameworks_base" />
+  <project path="frameworks/base" remote="suda" revision="cm-12.0" name="SudaMod/android_frameworks_base" />
   <project path="frameworks/compile/libbcc" remote="suda" revision="cm-12.0" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" remote="suda" revision="cm-12.0" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" remote="suda" revision="cm-12.0" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -447,7 +447,7 @@
   <project path="packages/apps/PackageInstaller" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" remote="suda" revision="cm-12.0" name="SudaMod/android_packages_apps_Settings" />
   <project path="packages/apps/SmartCardService" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
