@@ -27,11 +27,12 @@
 
   <project path="android" remote="suda" name="SudaMod/android" />
 
+<<<<<<< HEAD
   <project path="abi/cpp" remote="suda" revision="cm-12.0" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" remote="suda" revision="cm-12.0" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="suda" revision="cm-12.0" name="CyanogenMod/android_bionic" groups="pdk" />
   <project path="bootable/recovery" remote="suda" revision="cm-12.0" name="CyanogenMod/android_bootable_recovery" groups="pdk" />
-  <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="cts"  remote="suda" revision="cm-12.0" name="CyanogenMod/android_cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="developers/build" name="platform/developers/build" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="developers/demos" name="platform/developers/demos" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
@@ -454,7 +455,7 @@
   <project path="packages/apps/Stk" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/TvSettings" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_TvSettings" />
-  <!-- <project path="packages/apps/ThemeChooser" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_ThemeChooser" /> -->
+   <project path="packages/apps/ThemeChooser" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Terminal" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/Trebuchet" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Trebuchet" />
   <project path="packages/apps/UnifiedEmail" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
