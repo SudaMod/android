@@ -437,7 +437,7 @@
   <project path="packages/apps/Exchange" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Exchange" />
   <project path="packages/apps/Gallery2" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Gallery2" />
   <project path="packages/apps/HTMLViewer" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_HTMLViewer" />
-  <project path="packages/apps/InCallUI" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_InCallUI" />
+  <project path="packages/apps/InCallUI" remote="suda" name="SudaMod/android_packages_apps_InCallUI" />
   <project path="packages/apps/KeyChain" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_KeyChain" />
   <project path="packages/apps/LockClock" remote="suda" name="SudaMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" remote="suda" name="SudaMod/android_packages_apps_Mms-caf" />
