@@ -26,8 +26,6 @@
   </project>
 
   <project path="android" remote="suda" name="SudaMod/android" />
-
-<<<<<<< HEAD
   <project path="abi/cpp" remote="suda" revision="cm-12.0" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" remote="suda" revision="cm-12.0" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" remote="suda" revision="cm-12.0" name="CyanogenMod/android_bionic" groups="pdk" />
@@ -470,7 +468,7 @@
   <project path="packages/providers/MediaProvider" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
   <project path="packages/providers/TelephonyProvider" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
-  <!-- <project path="packages/providers/ThemesProvider" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_providers_ThemesProvider" /> -->
+  <project path="packages/providers/ThemesProvider" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_providers_TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
   <project path="packages/screensavers/Basic" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_screensavers_Basic" />
