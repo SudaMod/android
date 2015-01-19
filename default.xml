@@ -25,7 +25,6 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
-  <project path="external/mokee/MoKeeSDKs" remote="suda" name="SudaMod/android_external_mokee_MoKeeSDKs" />
   <project path="android" remote="suda" name="SudaMod/android" />
   <project path="abi/cpp" remote="suda" revision="cm-12.0" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" remote="suda" revision="cm-12.0" name="CyanogenMod/android_art" groups="pdk" />
@@ -307,6 +306,7 @@
   <project path="external/stlport" name="platform/external/stlport" groups="pdk" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/strace" remote="suda" revision="cm-12.0" name="CyanogenMod/android_external_strace" groups="pdk-cw-fs" />
   <project path="external/stressapptest" name="platform/external/stressapptest" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
+  <project path="external/suda/SudaSDKs" remote="suda" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="external/svox" name="platform/external/svox" groups="pdk-cw-fs" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/tagsoup" name="platform/external/tagsoup" groups="pdk-cw-fs,tradefed" remote="aosp" revision="refs/tags/android-5.0.2_r1" />
   <project path="external/tcpdump" remote="suda" revision="cm-12.0" name="CyanogenMod/android_external_tcpdump" groups="pdk,pdk-cw-fs" />
