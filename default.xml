@@ -456,7 +456,7 @@
   <project path="packages/apps/TvSettings" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_TvSettings" />
    <project path="packages/apps/ThemeChooser" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_ThemeChooser" />
   <project path="packages/apps/Terminal" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Terminal" />
-  <project path="packages/apps/Trebuchet" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_Trebuchet" />
+  <project path="packages/apps/SudaLauncher" remote="suda" name="SudaMod/android_packages_apps_SudaLauncher" />
   <project path="packages/apps/UnifiedEmail" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_UnifiedEmail" />
   <!-- <project path="packages/apps/VoiceDialer" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_apps_VoiceDialer" /> -->
   <project path="packages/experimental" remote="suda" revision="cm-12.0" name="CyanogenMod/android_packages_experimental" />
