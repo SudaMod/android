@@ -6,7 +6,7 @@
            review="android-review.googlesource.com" />
            
   <remote name="suda"
-          fetch="git@github.com:"
+          fetch="ssh://git@github.com"
           review=".." />         
 
   <remote  name="github"
