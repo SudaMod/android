@@ -30,7 +30,7 @@
   <project path="frameworks/base" remote="suda" revision="sm-1.0" name="SudaMod/android_frameworks_base" />
   <project path="packages/apps/Browser" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Browser" /> 
   <project path="packages/apps/Calendar" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Calendar" />  
-  <project path="packages/apps/Contacts" remote="suda"revision="sm-1.0" name="SudaMod/android_packages_apps_Contacts" /> 
+  <project path="packages/apps/Contacts" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Contacts" /> 
   <project path="packages/apps/ContactsCommon" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/Dialer" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Eleven" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Eleven" />
