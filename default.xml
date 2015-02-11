@@ -8,6 +8,7 @@
            
   <remote name="suda"
           fetch="https://github.com"
+          revision="sm-1.0"
           review=".." />         
 
   <remote  name="github"
@@ -26,24 +27,25 @@
   <project path="build" remote="suda" revision="sm-1.0" name="SudaMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" remote="suda" revision="sm-1.0" name="SudaMod/android" />
-  <project path="external/suda/SudaSDKs" remote="suda" revision="sm-1.0" name="SudaMod/android_external_suda_SudaSDKs" />
-  <project path="frameworks/base" remote="suda" revision="sm-1.0" name="SudaMod/android_frameworks_base" />
-  <project path="packages/apps/Browser" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Browser" /> 
-  <project path="packages/apps/Calendar" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Calendar" />  
-  <project path="packages/apps/Contacts" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Contacts" /> 
-  <project path="packages/apps/ContactsCommon" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_ContactsCommon" />
-  <project path="packages/apps/Dialer" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Dialer" />
-  <project path="packages/apps/Eleven" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Eleven" />
-  <project path="packages/apps/InCallUI" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_InCallUI" /> 
-  <project path="packages/apps/LockClock" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Mms-caf" /> 
-  <project path="packages/apps/Settings" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Settings" />  
-  <project path="packages/apps/OmniSwitch" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_OmniSwitch" /> 
-  <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_SudaLauncher" />  
-  <project path="system/core" remote="suda" revision="sm-1.0" name="SudaMod/android_system_core" groups="pdk" /> 
-  <project path="system/extras/su" remote="suda" revision="sm-1.0" name="SudaMod/android_system_extras_su" />   
-  <project path="vendor/sm" remote="suda" revision="sm-1.0" name="SudaMod/android_vendor_sm" />
+  <project path="android" remote="suda" name="SudaMod/android" />
+  <project path="external/suda/SudaSDKs" remote="suda" name="SudaMod/android_external_suda_SudaSDKs" />
+  <project path="frameworks/base" remote="suda" name="SudaMod/android_frameworks_base" />
+  <project path="packages/apps/Browser" remote="suda" name="SudaMod/android_packages_apps_Browser" /> 
+  <project path="packages/apps/Calendar" remote="suda" name="SudaMod/android_packages_apps_Calendar" />  
+  <project path="packages/apps/Contacts" remote="suda" name="SudaMod/android_packages_apps_Contacts" /> 
+  <project path="packages/apps/ContactsCommon" remote="suda" name="SudaMod/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/Dialer" remote="suda" name="SudaMod/android_packages_apps_Dialer" />
+  <project path="packages/apps/Eleven" remote="suda" name="SudaMod/android_packages_apps_Eleven" />
+  <project path="packages/apps/InCallUI" remote="suda" name="SudaMod/android_packages_apps_InCallUI" /> 
+  <project path="packages/apps/LockClock" remote="suda" name="SudaMod/android_packages_apps_LockClock" />
+  <project path="packages/apps/Mms" remote="suda" name="SudaMod/android_packages_apps_Mms-caf" /> 
+  <project path="packages/apps/Settings" remote="suda" name="SudaMod/android_packages_apps_Settings" />  
+  <project path="packages/apps/OmniSwitch" remote="suda" name="SudaMod/android_packages_apps_OmniSwitch" /> 
+  <project path="packages/apps/SudaLauncher" remote="suda" name="SudaMod/android_packages_apps_SudaLauncher" />  
+  <project path="packages/services/Telecomm" remore="suda" name="SudaMod/android_packages_services_Telecomm" />  
+  <project path="system/core" remote="suda" name="SudaMod/android_system_core" groups="pdk" /> 
+  <project path="system/extras/su" remote="suda" name="SudaMod/android_system_extras_su" />   
+  <project path="vendor/sm" remote="suda" name="SudaMod/android_vendor_sm" />
  <!-- SudaMod End  -->
 
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
@@ -499,7 +501,6 @@
   <project path="packages/screensavers/PhotoTable" name="CyanogenMod/android_packages_screensavers_PhotoTable" />
   <project path="packages/screensavers/WebView" name="CyanogenMod/android_packages_screensavers_WebView" />
   <project path="packages/services/Mms" name="CyanogenMod/android_packages_services_Mms" />
-  <project path="packages/services/Telecomm" name="CyanogenMod/android_packages_services_Telecomm" />
   <project path="packages/services/Telephony" name="CyanogenMod/android_packages_services_Telephony" />
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/Galaxy4" name="CyanogenMod/android_packages_wallpapers_Galaxy4" />
