@@ -26,7 +26,7 @@
   <project path="build" remote="suda" revision="sm-1.0" name="SudaMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
-  <project path="android" remote="suda" name="SudaMod/android" />
+  <project path="android" remote="suda" revision="sm-1.0" name="SudaMod/android" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-1.0" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="frameworks/base" remote="suda" revision="sm-1.0" name="SudaMod/android_frameworks_base" />
   <project path="packages/apps/Browser" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Browser" /> 
