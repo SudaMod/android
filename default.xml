@@ -41,7 +41,7 @@
   <project path="packages/apps/Settings" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Settings" />  
   <project path="packages/apps/OmniSwitch" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_OmniSwitch" /> 
   <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_SudaLauncher" />  
-  <project path="packages/services/Telecomm" remore="suda" revision="sm-1.0" name="SudaMod/android_packages_services_Telecomm" />  
+  <project path="packages/services/Telecomm" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_services_Telecomm" />  
   <project path="system/core" remote="suda" revision="sm-1.0" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-1.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.0" name="SudaMod/android_vendor_sm" />
