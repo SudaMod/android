@@ -478,8 +478,8 @@
   <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
-  <project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
-  <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" />
+  <!--<project path="packages/apps/CMAccount" name="CyanogenMod/android_packages_apps_CMAccount" />
+  <project path="packages/apps/CMBugReport" name="CyanogenMod/android_packages_apps_CMBugreport" /> -->
   <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
   <!-- <project path="packages/apps/CMUpdater" name="CyanogenMod/android_packages_apps_CMUpdater" /> -->
   <project path="packages/apps/CMWallpapers" name="CyanogenMod/android_packages_apps_CMWallpapers" />
@@ -491,7 +491,7 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" />
+  <!-- <project path="packages/apps/SetupWizard" name="CyanogenMod/android_packages_apps_SetupWizard" /> -->
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
   <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
