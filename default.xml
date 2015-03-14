@@ -42,7 +42,6 @@
   <project path="packages/apps/LockClock" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Mms-caf" /> 
   <project path="packages/apps/Settings" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Settings" />  
-  <project path="packages/apps/OmniSwitch" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_OmniSwitch" /> 
   <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_SudaLauncher" />
   <project path="packages/apps/SudaModUpdater" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_SudaModUpdater" /> 
   <project path="packages/services/Telecomm" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_services_Telecomm" />  
