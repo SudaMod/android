@@ -49,8 +49,13 @@
   <project path="system/core" remote="suda" revision="sm-1.0" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-1.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.0" name="SudaMod/android_vendor_sm" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="SudaMod/prebuilts-gcc-darwin-x86-x86-x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="suda" revision="master" />
+
   <!-- SudaMod End  -->
+    
+  <!-- Platform-tools Begin -->
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="Platform-tools/prebuilts-gcc-darwin-x86-x86-x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="suda" revision="master" />
+  <!-- Platform-tools End -->
+  
   
   <!-- NamelessRom Begin -->
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.0" />
