@@ -49,6 +49,7 @@
   <project path="system/core" remote="suda" revision="sm-1.0" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-1.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.0" name="SudaMod/android_vendor_sm" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="SudaMod/prebuilts-gcc-darwin-x86-x86-x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="suda" revision="master" />
   <!-- SudaMod End  -->
   
   <!-- NamelessRom Begin -->
