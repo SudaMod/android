@@ -54,15 +54,8 @@
   <project path="system/core" remote="suda" revision="sm-1.1" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-1.1" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.1" name="SudaMod/android_vendor_sm" />
-
   <!-- SudaMod End  -->
-    
-  <!-- Platform-tools Begin -->
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="Platform-tools/prebuilts-gcc-darwin-x86-x86-x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="platform-tools" />
-  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="Platform-tools/prebuilts-gcc-darwin-x86-x86-x86_64-linux-android-4.8" groups="pdk,darwin,x86" remote="platform-tools" />
-  <!-- Platform-tools End -->
-  
-  
+
   <!-- NamelessRom Begin -->
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
@@ -562,6 +555,8 @@
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" groups="pdk,darwin,mips" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mipsel-linux-android-4.8" groups="pdk,darwin,mips" remote="aosp" />
   <project path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.8" groups="pdk,darwin,mips" remote="aosp" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" groups="pdk,darwin,x86" remote="aosp" />
+  <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="platform/prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="aosp" revision="master" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="platform/prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
