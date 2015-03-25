@@ -25,7 +25,7 @@
   <default revision="refs/heads/staging/cm-12.1"
            remote="github"
            sync-c="true"
-           sync-j="16" />
+           sync-j="4" />
 
   <!-- SudaMod Begin -->
   <project path="build" remote="suda" revision="sm-1.1" name="SudaMod/android_build" groups="pdk,tradefed" >
