@@ -2,7 +2,7 @@
 <manifest>
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="git://aosp.tuna.tsinghua.edu.cn/android/"
            review="android-review.googlesource.com"
            revision="refs/tags/android-5.1.0_r1" />
   
