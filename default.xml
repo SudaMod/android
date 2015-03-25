@@ -60,39 +60,37 @@
   <!-- Platform-tools Begin -->
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" name="Platform-tools/prebuilts-gcc-darwin-x86-x86-x86_64-linux-android-4.9" groups="pdk,darwin,x86" remote="platform-tools" />
   <project path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.8" name="Platform-tools/prebuilts-gcc-darwin-x86-x86-x86_64-linux-android-4.8" groups="pdk,darwin,x86" remote="platform-tools" />
-  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
-  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium_org/sdch/open-vcdiff" name="Platform-tools/platform-external-chromium-org/sdch/open-vcdiff" remote="platform-tools" />
-  <project path="external/chromium_org/testing/gtest" name="Platform-tools/platform-external-chromium-org/testing/gtest" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/WebKit" name="Platform-tools/platform-external-chromium-org/third_party/WebKit" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/angle" name="Platform-tools/platform-external-chromium-org/third_party/angle" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/boringssl/src" name="Platform-tools/platform-external-chromium-org/third_party/boringssl/src" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/brotli/src" name="Platform-tools/platform-external-chromium-org/third_party/brotli/src" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="Platform-tools/platform-external-chromium-org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/freetype" name="Platform-tools/platform-external-chromium-org/third_party/freetype" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/icu" name="Platform-tools/platform-external-chromium-org/third_party/icu" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/leveldatabase/src" name="Platform-tools/platform-external-chromium-org/third_party/leveldatabase/src" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/libaddressinput/src" name="Platform-tools/platform-external-chromium-org/third_party/libaddressinput/src" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/libjingle/source/talk" name="Platform-tools/platform-external-chromium-org/third_party/libjingle/source/talk" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/libjpeg_turbo" name="Platform-tools/platform-external-chromium-org/third_party/libjpeg_turbo" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="Platform-tools/platform-external-chromium-org/third_party/libphonenumber/src/phonenumbers" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="Platform-tools/platform-external-chromium-org/third_party/libphonenumber/src/resources" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/libsrtp" name="Platform-tools/platform-external-chromium-org/third_party/libsrtp" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/libvpx" name="Platform-tools/platform-external-chromium-org/third_party/libvpx" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/libyuv" name="Platform-tools/platform-external-chromium-org/third_party/libyuv" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/mesa/src" name="Platform-tools/platform-external-chromium-org/third_party/mesa/src" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/openmax_dl" name="Platform-tools/platform-external-chromium-org/third_party/openmax_dl" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/opus/src" name="Platform-tools/platform-external-chromium-org/third_party/opus/src" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/ots" name="Platform-tools/platform-external-chromium-org/third_party/ots" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="Platform-tools/platform-external-chromium-org/third_party/sfntly/cpp/src" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/skia" name="Platform-tools/platform-external-chromium-org/third_party/skia" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/smhasher/src" name="Platform-tools/platform-external-chromium-org/third_party/smhasher/src" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="Platform-tools/platform-external-chromium-org/third_party/usrsctp/usrsctplib" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/webrtc" name="Platform-tools/platform-external-chromium-org/third_party/webrtc" remote="platform-tools" />
-  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="Platform-tools/platform-external-chromium-org/third_party/yasm/source/patched-yasm" remote="platform-tools" />
-  <project path="external/chromium_org/tools/grit" name="Platform-tools/platform-external-chromium-org/tools/grit" remote="platform-tools" />
-  <project path="external/chromium_org/tools/gyp" name="Platform-tools/platform-external-chromium-org/tools/gyp" remote="platform-tools" />
-  <project path="external/chromium_org/v8" name="Platform-tools/platform-external-chromium-org/v8" remote="platform-tools" />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" remote="aosp" />
+  <project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" remote="aosp" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" />
+  <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" remote="aosp" />
+  <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" remote="aosp" />
+  <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" remote="aosp" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" remote="aosp" />
+  <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" remote="aosp" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" />
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" />
   <!-- Platform-tools End -->
   
   
@@ -158,7 +156,40 @@
   <project path="external/cardslib" name="CyanogenMod/android_external_cardslib" />
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" remote="aosp" />
+  <project path="external/chromium-libpac" name="platform/external/chromium-libpac" remote="aosp" />
+  <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
   <project path="external/chromium_org" name="CyanogenMod/android_external_chromium_org" />
+  <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" remote="aosp" />
+  <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" remote="aosp" />
+  <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" remote="aosp" />
+  <project path="external/chromium_org/third_party/angle" name="platform/external/chromium_org/third_party/angle" remote="aosp" />
+  <project path="external/chromium_org/third_party/boringssl/src" name="platform/external/chromium_org/third_party/boringssl/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/brotli/src" name="platform/external/chromium_org/third_party/brotli/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" name="platform/external/chromium_org/third_party/eyesfree/src/android/java/src/com/googlecode/eyesfree/braille" remote="aosp" />
+  <project path="external/chromium_org/third_party/freetype" name="platform/external/chromium_org/third_party/freetype" remote="aosp" />
+  <project path="external/chromium_org/third_party/icu" name="platform/external/chromium_org/third_party/icu" remote="aosp" />
+  <project path="external/chromium_org/third_party/leveldatabase/src" name="platform/external/chromium_org/third_party/leveldatabase/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/libaddressinput/src" name="platform/external/chromium_org/third_party/libaddressinput/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/libjingle/source/talk" name="platform/external/chromium_org/third_party/libjingle/source/talk" remote="aosp" />
+  <project path="external/chromium_org/third_party/libjpeg_turbo" name="platform/external/chromium_org/third_party/libjpeg_turbo" remote="aosp" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/phonenumbers" name="platform/external/chromium_org/third_party/libphonenumber/src/phonenumbers" remote="aosp" />
+  <project path="external/chromium_org/third_party/libphonenumber/src/resources" name="platform/external/chromium_org/third_party/libphonenumber/src/resources" remote="aosp" />
+  <project path="external/chromium_org/third_party/libsrtp" name="platform/external/chromium_org/third_party/libsrtp" remote="aosp" />
+  <project path="external/chromium_org/third_party/libvpx" name="platform/external/chromium_org/third_party/libvpx" remote="aosp" />
+  <project path="external/chromium_org/third_party/libyuv" name="platform/external/chromium_org/third_party/libyuv" remote="aosp" />
+  <project path="external/chromium_org/third_party/mesa/src" name="platform/external/chromium_org/third_party/mesa/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/openmax_dl" name="platform/external/chromium_org/third_party/openmax_dl" remote="aosp" />
+  <project path="external/chromium_org/third_party/opus/src" name="platform/external/chromium_org/third_party/opus/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/ots" name="platform/external/chromium_org/third_party/ots" remote="aosp" />
+  <project path="external/chromium_org/third_party/sfntly/cpp/src" name="platform/external/chromium_org/third_party/sfntly/cpp/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/skia" name="platform/external/chromium_org/third_party/skia" remote="aosp" />
+  <project path="external/chromium_org/third_party/smhasher/src" name="platform/external/chromium_org/third_party/smhasher/src" remote="aosp" />
+  <project path="external/chromium_org/third_party/usrsctp/usrsctplib" name="platform/external/chromium_org/third_party/usrsctp/usrsctplib" remote="aosp" />
+  <project path="external/chromium_org/third_party/webrtc" name="platform/external/chromium_org/third_party/webrtc" remote="aosp" />
+  <project path="external/chromium_org/third_party/yasm/source/patched-yasm" name="platform/external/chromium_org/third_party/yasm/source/patched-yasm" remote="aosp" />
+  <project path="external/chromium_org/tools/grit" name="platform/external/chromium_org/tools/grit" remote="aosp" />
+  <project path="external/chromium_org/tools/gyp" name="platform/external/chromium_org/tools/gyp" remote="aosp" />
+  <project path="external/chromium_org/v8" name="platform/external/chromium_org/v8" remote="aosp" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
