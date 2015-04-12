@@ -54,6 +54,7 @@
   <!-- NamelessRom Begin -->
   <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.0" />
   <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
+  <project path="external/AndroidSwipeLayout" name="NamelessRom/android_external_AndroidSwipeLayout" revision="n-2.0" />
   <!-- NamelessRom End  -->
 
   <!-- Mokee Begin -->
