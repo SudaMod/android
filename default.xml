@@ -41,7 +41,8 @@
   <project path="packages/apps/InCallUI" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_InCallUI" /> 
   <project path="packages/apps/LockClock" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_LockClock" />
   <project path="packages/apps/Mms" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Mms-caf" /> 
-  <project path="packages/apps/Settings" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Settings" />  
+  <project path="packages/apps/Settings" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Settings" />
+  <project path="packages/apps/Stk" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Stk" />  
   <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_SudaLauncher" />
   <project path="packages/apps/SudaModUpdater" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_SudaModUpdater" /> 
   <project path="packages/services/Telecomm" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_services_Telecomm" />  
@@ -496,7 +497,6 @@
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
-  <project path="packages/apps/Stk" name="CyanogenMod/android_packages_apps_Stk" />
   <project path="packages/apps/Tag" name="CyanogenMod/android_packages_apps_Tag" />
   <project path="packages/apps/Terminal" name="CyanogenMod/android_packages_apps_Terminal" />
   <project path="packages/apps/ThemeChooser" name="CyanogenMod/android_packages_apps_ThemeChooser" />
