@@ -34,7 +34,6 @@
   <project path="packages/apps/Contacts" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Contacts" /> 
   <project path="packages/apps/ContactsCommon" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_ContactsCommon" />
   <project path="packages/apps/DeskClock" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_DeskClock" />  
-  <project path="packages/apps/DeviceControl" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_DeviceControl" />  
   <project path="packages/apps/Dialer" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Eleven" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Eleven" />
   <project path="packages/apps/InCallUI" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_InCallUI" /> 
@@ -43,20 +42,12 @@
   <project path="packages/apps/Settings" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Settings" /> 
   <project path="packages/apps/Stk" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_Stk" />  
   <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_SudaLauncher" />
-  <project path="packages/apps/SudaModUpdater" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_apps_SudaModUpdater" /> 
   <project path="packages/services/Telecomm" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_services_Telecomm" />  
   <project path="packages/services/Telephony" remote="suda" revision="sm-1.0" name="SudaMod/android_packages_services_Telephony" />
   <project path="system/core" remote="suda" revision="sm-1.0" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-1.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.0" name="SudaMod/android_vendor_sm" />
-
   <!-- SudaMod End  -->
-    
-  <!-- NamelessRom Begin -->
-  <project path="external/koush/AndroidAsync" name="NamelessRom/android_external_koush_AndroidAsync" revision="n-2.0" />
-  <project path="external/mpandroidchart" name="NamelessRom/android_external_mpandroidchart" revision="n-2.0" />
-  <project path="external/AndroidSwipeLayout" name="NamelessRom/android_external_AndroidSwipeLayout" revision="n-2.0" />
-  <!-- NamelessRom End  -->
 
   <!-- Mokee Begin -->
   <project path="packages/apps/AudioFX" name="MoKee/android_packages_apps_AudioFX" revision="mkl" />
