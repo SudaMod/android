@@ -9,7 +9,7 @@
   <remote name="suda"
           fetch="https://github.com"
           review=".." />         
-
+		  
   <remote  name="github"
            fetch=".."
            review="review.cyanogenmod.org" />
