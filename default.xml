@@ -51,6 +51,7 @@
   <project path="system/core" remote="suda" revision="sm-1.1" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-1.1" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.1" name="SudaMod/android_vendor_sm" />
+  <project path="vendor/cmsdk" name="SudaMod/cm_platform_sdk" />
   <!-- SudaMod End  -->
 
   <!-- Mokee Begin -->
@@ -591,5 +592,4 @@
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" />
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" remote="aosp" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" />
-  <project path="vendor/cmsdk" name="CyanogenMod/cm_platform_sdk" />
 </manifest>
