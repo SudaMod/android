@@ -34,6 +34,7 @@
   <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_CellBroadcastReceiver" />
   <project path="packages/apps/Contacts" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Contacts" /> 
   <project path="packages/apps/ContactsCommon" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/CMFileManager" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/DeskClock" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_DeskClock" />  
   <project path="packages/apps/Dialer" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Dialer" />
   <project path="packages/apps/Eleven" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Eleven" />
@@ -57,7 +58,6 @@
   <!-- Mokee Begin -->
   <project path="packages/apps/AudioFX" name="MoKee/android_packages_apps_AudioFX" revision="mkl-mr1" />
   <project path="packages/apps/Gallery2" name="MoKee/android_packages_apps_Gallery2" revision="mkl-mr1" />
-  <project path="packages/apps/CMFileManager" name="MoKee/android_packages_apps_CMFileManager" revision="mkl-mr1" />
   <project path="packages/apps/Calculator" name="MoKee/android_packages_apps_Calculator" revision="mkl-mr1" />
   <project path="packages/apps/Email" name="MoKee/android_packages_apps_Email" revision="mkl-mr1" />  
   <project path="packages/apps/ScreenRecorder" name="MoKee/android_packages_apps_ScreenRecorder" revision="mkl-mr1" />
