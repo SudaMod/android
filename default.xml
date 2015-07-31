@@ -45,7 +45,7 @@
   <project path="packages/apps/Stk" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Stk" />  
   <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_SudaLauncher" />
   <project path="packages/apps/SudaModUpdater" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_SudaModUpdater" /> 
-  <project path="packages/apps/PhoneLocationProvider" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" /> 
+  <project path="packages/provider/PhoneLocationProvider" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" /> 
   <project path="packages/services/Telecomm" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_services_Telecomm" />  
   <project path="packages/services/Telephony" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_services_Telephony" />
   <project path="frameworks/av" remote="suda" revision="sm-1.1" name="SudaMod/android_frameworks_av" groups="pdk" />
