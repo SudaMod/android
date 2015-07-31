@@ -49,7 +49,6 @@
   <project path="packages/services/Telecomm" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_services_Telecomm" />  
   <project path="packages/services/Telephony" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_services_Telephony" />
   <project path="frameworks/av" remote="suda" revision="sm-1.1" name="SudaMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/volley" remote="suda" revision="sm-1.1" name="SudaMod/android_frameworks_volley" />
   <project path="system/core" remote="suda" revision="sm-1.1" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-1.1" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.1" name="SudaMod/android_vendor_sm" />
@@ -406,6 +405,7 @@
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
   <project path="frameworks/rs" name="CyanogenMod/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="CyanogenMod/android_frameworks_support" />
+  <project path="frameworks/volley" name="CyanogenMod/android_frameworks_volley" />
   <project path="frameworks/webview" name="CyanogenMod/android_frameworks_webview" />
   <project path="frameworks/wilhelm" name="CyanogenMod/android_frameworks_wilhelm" />
   <project path="hardware/akm" name="CyanogenMod/android_hardware_akm" groups="pdk" />
