@@ -63,6 +63,9 @@
   <project path="packages/apps/ScreenRecorder" name="MoKee/android_packages_apps_ScreenRecorder" revision="mkl-mr1" />
   <project path="packages/apps/SoundRecorder" name="MoKee/android_packages_apps_SoundRecorder" revision="mkl-mr1" />
   <project path="packages/apps/UnifiedEmail" name="MoKee/android_packages_apps_UnifiedEmail" revision="mkl-mr1" />  
+  <project path="prebuilts/gcc/linux-x86/arm/sabermod" name="MoKee/android_prebuilts_gcc_linux-x86_arm_sabermod" revision="mkl-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-eabi-4.9" name="MoKee/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" revision="mkl-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-androideabi-4.8" name="MoKee/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" revision="mkl-mr1" />
   <!-- Mokee End  -->
 
   <!-- CyanogenMod  -->
@@ -556,9 +559,6 @@
   <project path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" name="CyanogenMod/android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" groups="pdk,linux,arm" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" groups="pdk,linux,arm" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.8" groups="pdk,linux,arm" remote="aosp" />
-  <project path="prebuilts/gcc/linux-x86/arm/sabermod" name="MoKee/android_prebuilts_gcc_linux-x86_arm_sabermod" />
-  <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-eabi-4.9" name="MoKee/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-eabi-4.9" />
-  <project path="prebuilts/gcc/linux-x86/arm/sabermod-arm-linux-androideabi-4.8" name="MoKee/android_prebuilts_gcc_linux-x86_arm_sabermod-arm-linux-androideabi-4.8" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.6" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" groups="pdk,linux" remote="aosp" />
   <project path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" name="platform/prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" remote="aosp" />
