@@ -53,7 +53,6 @@
   <project path="system/extras/su" remote="suda" revision="sm-1.1" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.1" name="SudaMod/android_vendor_sm" />
   <project path="vendor/cmsdk" name="SudaMod/cm_platform_sdk" />
-  <project path="hardware/cyanogen" remote="suda" revision="sm-1.1" name="SudaMod/android_hardware_cyanogen" />
   <!-- SudaMod End  -->
 
   <!-- Mokee Begin -->
@@ -417,6 +416,8 @@
   <project path="hardware/broadcom/libbt" name="CyanogenMod/android_hardware_broadcom_libbt" groups="pdk" />
   <project path="hardware/broadcom/wlan" name="CyanogenMod/android_hardware_broadcom_wlan" groups="broadcom_wlan" />
   <project path="hardware/cm" name="CyanogenMod/android_hardware_cm" />
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" />
+  <project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" />
   <project path="hardware/intel/audio_media" name="platform/hardware/intel/audio_media" groups="intel" remote="aosp" />
   <project path="hardware/intel/bootstub" name="platform/hardware/intel/bootstub" groups="intel" remote="aosp" />
   <project path="hardware/intel/common/bd_prov" name="platform/hardware/intel/common/bd_prov" groups="intel" remote="aosp" />
