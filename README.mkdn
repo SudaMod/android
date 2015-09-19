@@ -5,13 +5,13 @@ Required Packages Simply copy and paste this in a terminal window:
 
 [Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
 
-$ sudo apt-get install openjdk-7-jdk
+    $ sudo apt-get install openjdk-7-jdk
 
 Let that install and then proceed. More copy and paste:
 
 [Hint: Running this command installs the other required packages to build android]
 
-$ sudo apt-get update && sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-6-jre openjdk-6-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline-gplv2-dev gcc-multilib
+    $ sudo apt-get update && sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-6-jre openjdk-6-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline-gplv2-dev gcc-multilib
 
 Getting the Source
 
@@ -23,39 +23,39 @@ Initializing an empty repo
 Syncing the repo
 Alright, so now we’re getting there. I have outlined the basics of what we’re about to do and broke them down as I know them. This is all pretty much going to be copy/paste so it’ll be fairly difficult to screw this up :) Make directory for the repo binary
 
-$ mkdir ~/bin
+    $ mkdir ~/bin
 
 Add directory for the repo binary to its path
 
-$ PATH=~/bin:$PATH
+    $ PATH=~/bin:$PATH
 
 Downloading repo binary and placing it in the proper directory
 
-$ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+    $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
 Giving the repo binary the proper permissions
 
-$ chmod a+x ~/bin/repo
+    $ chmod a+x ~/bin/repo
 
 Creating directory for where the SudaMod repo will be stored and synced
 
-$ mkdir ~/SudaMod $ cd ~/SudaMod
+    $ mkdir ~/SudaMod $ cd ~/SudaMod
 
 Initializing the SudaMod repo and downloading the manifest
 
-repo init -u git://github.com/SudaMod/android.git -b sm-1.1
+    $ repo init -u git://github.com/SudaMod/android.git -b sm-1.1
 Then to sync up:
 
-repo sync
+    $ repo sync
 Syncing the source
 
 [Hint: This might take a long time as the source is about 13GB+]
 
-$ repo sync --force-sync
+    $ repo sync --force-sync
 
 sync repo:
 
-repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
+    $ repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
 
 Setting Up CCache
 
@@ -63,24 +63,24 @@ CCache is a method of utilizing a specified storage space to speed up building. 
 
 To set up CCache, follow the following:
 
-$ echo "export USE_CCACHE=1" >> ~/.bashrc
+    $ echo "export USE_CCACHE=1" >> ~/.bashrc
 
-$ ~/SudaMod/prebuilts/misc/linux-x86/ccache/ccache -M 50G
+    $ ~/SudaMod/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 -M 50G The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
 To build Resurrection SudaMod
 
-$ cd ~/SudaMod To build for your device.
+    $ cd ~/SudaMod To build for your device.
 
-. build/envsetup.sh
+    $ . build/envsetup.sh
 
-breakfast device name here
+    $ breakfast device name here
 
-brunch device name here
+    $ brunch device name here
 
 or make is all one line.
 
-. build/envsetup.sh breakfast device name here brunch device name here
+    $ . build/envsetup.sh breakfast device name here brunch device name here
 
 For more information on this Github Organization and how it is structured, please read the wiki article
 
@@ -88,11 +88,11 @@ Obtaining the zip created from the build process
 
 To get the zip file that has been built, navigate to the following directory and find for the zip file:
 
-$ cd ~/SudaMod/out/target/product//
+    $ cd ~/SudaMod/out/target/product/
 
 If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following to make sure your next build is clean;
 
-$ cd ~/SudaMod $ make clean $ repo sync -j 16
+    $ cd ~/SudaMod $ make clean $ repo sync -j 16
 
 After doing so, redo everything stated from the Building Section. For those who successfully built Resurrection SudaMod
 
