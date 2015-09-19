@@ -4,7 +4,7 @@ SudaMod
 Getting Started
 ---------------
 
-###Required Packages Simply copy and paste this in a terminal window:
+###Initializing the environment
 
 [Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
 
