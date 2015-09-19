@@ -49,20 +49,14 @@ Initializing the SudaMod repo and downloading the manifest
     $ repo init -u git://github.com/SudaMod/android.git -b sm-1.1
 Then to sync up:
 
-    $ repo sync
-Syncing the source
+    $ repo sync --force-sync -j8
 
 [Hint: This might take a long time as the source is about 13GB+]
 
-    $ repo sync --force-sync
-
-sync repo:
-
-    $ repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
 
 ###Setting Up CCache
 
-CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build Resurrection SudaMod faster than standard build times (Able to cut-down 50% of time taken to build).
+CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build SudaMod faster than standard build times (Able to cut-down 50% of time taken to build).
 
 To set up CCache, follow the following:
 
