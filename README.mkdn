@@ -4,7 +4,7 @@ SudaMod
 Getting Started
 ---------------
 
-Required Packages Simply copy and paste this in a terminal window:
+###Required Packages Simply copy and paste this in a terminal window:
 
 [Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
 
@@ -16,7 +16,7 @@ Let that install and then proceed. More copy and paste:
 
     $ sudo apt-get update && sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk2.8-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-6-jre openjdk-6-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev lib32readline-gplv2-dev gcc-multilib
 
-Getting the Source
+###Getting the Source
 
 Making required directories
 Obtaining the repo binary
@@ -60,7 +60,7 @@ sync repo:
 
     $ repo sync -j2 | -j4 |-j8 | -j32 (# of CPUs x2)
 
-Setting Up CCache
+###Setting Up CCache
 
 CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build Resurrection SudaMod faster than standard build times (Able to cut-down 50% of time taken to build).
 
@@ -72,19 +72,19 @@ To set up CCache, follow the following:
 
 -M 50G The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
 
-To build Resurrection SudaMod
+###To build SudaMod
 
     $ cd ~/SudaMod 
     
     $ . build/envsetup.sh
 
-    $ breakfast device name here
+    $ breakfast "device name"
 
-    $ brunch device name here
+    $ brunch "device name"
 
 or make is all one line.
 
-    $ . build/envsetup.sh breakfast device name here brunch device name here
+    $ . build/envsetup.sh && breakfast "device name" && brunch "device name"
 
 Obtaining the zip created from the build process
 
@@ -94,8 +94,4 @@ To get the zip file that has been built, navigate to the following directory and
 
 If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following to make sure your next build is clean;
 
-    $ cd ~/SudaMod $ make clean $ repo sync -j 16
-
-After doing so, redo everything stated from the Building Section. For those who successfully built Resurrection SudaMod
-
-Well, Congratulations on your victory! Now, you have a .zip file that flashable to your device! Share it to the internet as you wish but be sure to contribute back and also give credits to the Resurrection SudaMod Team and its contributors! Do come and build Resurrection SudaMod another time as new code is improved upon after time. If you wish to contibute, feel free to make a pull request to the Ressurection SudaMod Team! See you again builder!
+    $ cd ~/SudaMod && make clean && repo sync -j 16
