@@ -1,5 +1,8 @@
 SudaMod
+===========
+
 Getting Started
+---------------
 
 Required Packages Simply copy and paste this in a terminal window:
 
@@ -68,10 +71,11 @@ To set up CCache, follow the following:
     $ ~/SudaMod/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
 -M 50G The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
+
 To build Resurrection SudaMod
 
-    $ cd ~/SudaMod To build for your device.
-
+    $ cd ~/SudaMod 
+    
     $ . build/envsetup.sh
 
     $ breakfast device name here
@@ -81,8 +85,6 @@ To build Resurrection SudaMod
 or make is all one line.
 
     $ . build/envsetup.sh breakfast device name here brunch device name here
-
-For more information on this Github Organization and how it is structured, please read the wiki article
 
 Obtaining the zip created from the build process
 
