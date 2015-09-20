@@ -294,6 +294,7 @@
   <project path="external/mesa3d" name="platform/external/mesa3d" remote="aosp" />
   <project path="external/messageformat" name="platform/external/messageformat" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/mksh" name="CyanogenMod/android_external_mksh" groups="pdk" />
+  <project path="external/mm-dash" name="CyanogenMod/android_external_mm-dash" groups="pdk" />
   <project path="external/mockito" name="platform/external/mockito" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/mockwebserver" name="platform/external/mockwebserver" groups="pdk-cw-fs" remote="aosp" />
   <project path="external/mp4parser" name="platform/external/mp4parser" groups="pdk-cw-fs" remote="aosp" />
@@ -444,6 +445,7 @@
   <project path="hardware/qcom/audio-caf/msm8974" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8974" />
   <project path="hardware/qcom/audio-caf/msm8994" name="CyanogenMod/android_hardware_qcom_audio" groups="qcom,qcom_audio" revision="cm-12.1-caf-8994" />
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
+  <project path="hardware/qcom/fm" name="CyanogenMod/android_hardware_qcom_fm" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" />
   <project path="hardware/qcom/display-caf/apq8084" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8084" />
   <project path="hardware/qcom/display-caf/msm8916" name="CyanogenMod/android_hardware_qcom_display" groups="qcom,qcom_display" revision="cm-12.1-caf-8916" />
