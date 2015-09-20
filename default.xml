@@ -63,7 +63,6 @@
   <project path="packages/apps/ScreenRecorder" name="MoKee/android_packages_apps_ScreenRecorder" revision="mkl-mr1" />
   <project path="packages/apps/SoundRecorder" name="MoKee/android_packages_apps_SoundRecorder" revision="mkl-mr1" />
   <project path="packages/apps/UnifiedEmail" name="MoKee/android_packages_apps_UnifiedEmail" revision="mkl-mr1" />  
-  <project path="prebuilts/sabermod" name="MoKee/android_prebuilts_sabermod" revision="mkl-mr1" />
   <!-- Mokee End  -->
 
   <!-- CyanogenMod  -->
