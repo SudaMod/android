@@ -63,6 +63,8 @@
   <project path="packages/apps/ScreenRecorder" name="MoKee/android_packages_apps_ScreenRecorder" revision="mkl-mr1" />
   <project path="packages/apps/SoundRecorder" name="MoKee/android_packages_apps_SoundRecorder" revision="mkl-mr1" />
   <project path="packages/apps/UnifiedEmail" name="MoKee/android_packages_apps_UnifiedEmail" revision="mkl-mr1" />  
+  <project path="prebuilts/gcc/linux-x86/arm/uber-arm-eabi-4.8" name="MoKee/android_prebuilts_gcc_linux-x86_arm_uber-arm-eabi-4.8" revision="mkl-mr1" />
+  <project path="prebuilts/gcc/linux-x86/arm/uber-arm-linux-androideabi-4.8" name="MoKee/android_prebuilts_gcc_linux-x86_arm_uber-arm-linux-androideabi-4.8" revision="mkl-mr1" />
   <!-- Mokee End  -->
 
   <!-- CyanogenMod  -->
