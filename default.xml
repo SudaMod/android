@@ -40,7 +40,7 @@
   <project path="packages/apps/Eleven" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Eleven" />
   <project path="packages/apps/InCallUI" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_InCallUI" /> 
   <project path="packages/apps/LockClock" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_LockClock" />
-  <project path="packages/apps/Mms" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Mms-caf" /> 
+  <!--<project path="packages/apps/Mms" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Mms-caf" /> -->
   <project path="packages/apps/Settings" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Settings" />
   <project path="packages/apps/Stk" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Stk" />  
   <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_SudaLauncher" />
@@ -231,6 +231,7 @@
   <project path="hardware/qcom/media-caf/msm8974" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8974" />
   <project path="hardware/qcom/media-caf/msm8994" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" revision="cm-13.0-caf-8994" />
   <project path="hardware/qcom/wlan" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" />
+  <project path="hardware/qcom/wlan-caf" name="CyanogenMod/android_hardware_qcom_wlan" groups="qcom_wlan" revision="cm-13.0-caf" />
   <project path="hardware/ril" name="CyanogenMod/android_hardware_ril" groups="pdk" />
   <project path="hardware/ril-caf" name="CyanogenMod/android_hardware_ril" groups="pdk" revision="cm-13.0-caf" />
   <project path="hardware/samsung_slsi/exynos5" name="CyanogenMod/android_hardware_samsung_slsi_exynos5" />
