@@ -41,6 +41,7 @@
   <project path="packages/apps/Eleven" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Eleven" />
   <project path="packages/apps/InCallUI" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_InCallUI" groups="pdk-fs" /> 
   <project path="packages/apps/LockClock" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_LockClock" />
+  <project path="packages/apps/Messaging" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Settings" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/Stk" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />  
   <!-- <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_SudaLauncher" /> -->
@@ -259,7 +260,6 @@
   <project path="packages/apps/HTMLViewer" name="CyanogenMod/android_packages_apps_HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="CyanogenMod/android_packages_apps_KeyChain" groups="pdk-fs" />
   <project path="packages/apps/ManagedProvisioning" name="CyanogenMod/android_packages_apps_ManagedProvisioning" groups="pdk-fs" />
-  <project path="packages/apps/Messaging" name="CyanogenMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/Nfc" name="CyanogenMod/android_packages_apps_Nfc" groups="apps_nfc,pdk-fs" />
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
