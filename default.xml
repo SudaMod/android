@@ -29,6 +29,8 @@
   <project path="android" remote="suda" revision="sm-1.1" name="SudaMod/android" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-1.1" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="frameworks/base" remote="suda" revision="sm-1.1" name="SudaMod/android_frameworks_base" />
+  <project path="frameworks/av" remote="suda" revision="sm-1.1" name="SudaMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/opt/telephony" remote="suda" revision="sm-1.1" name="SudaMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="packages/apps/Browser" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Browser" /> 
   <project path="packages/apps/Calendar" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_Calendar" />  
   <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_CellBroadcastReceiver" />
@@ -46,9 +48,9 @@
   <project path="packages/apps/SudaLauncher" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_SudaLauncher" />
   <project path="packages/apps/SudaModUpdater" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_apps_SudaModUpdater" /> 
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" /> 
+  <project path="packages/providers/TelephonyProvider" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/services/Telecomm" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_services_Telecomm" />  
   <project path="packages/services/Telephony" remote="suda" revision="sm-1.1" name="SudaMod/android_packages_services_Telephony" />
-  <project path="frameworks/av" remote="suda" revision="sm-1.1" name="SudaMod/android_frameworks_av" groups="pdk" />
   <project path="system/core" remote="suda" revision="sm-1.1" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-1.1" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-1.1" name="SudaMod/android_vendor_sm" />
@@ -404,7 +406,6 @@
   <project path="frameworks/opt/net/wifi" name="CyanogenMod/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="CyanogenMod/android_frameworks_opt_photoviewer" />
   <project path="frameworks/opt/setupwizard" name="CyanogenMod/android_frameworks_opt_setupwizard" groups="pdk-cw-fs" />
-  <project path="frameworks/opt/telephony" name="CyanogenMod/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="CyanogenMod/android_frameworks_opt_timezonepicker" />
   <project path="frameworks/opt/vcard" name="CyanogenMod/android_frameworks_opt_vcard" />
   <project path="frameworks/opt/widget" name="platform/frameworks/opt/widget" remote="aosp" />
@@ -507,7 +508,6 @@
   <project path="packages/providers/DownloadProvider" name="CyanogenMod/android_packages_providers_DownloadProvider" />
   <project path="packages/providers/MediaProvider" name="CyanogenMod/android_packages_providers_MediaProvider" />
   <project path="packages/providers/PartnerBookmarksProvider" name="CyanogenMod/android_packages_providers_PartnerBookmarksProvider" />
-  <project path="packages/providers/TelephonyProvider" name="CyanogenMod/android_packages_providers_TelephonyProvider" />
   <project path="packages/providers/ThemesProvider" name="CyanogenMod/android_packages_providers_ThemesProvider" />
   <project path="packages/providers/TvProvider" name="CyanogenMod/android_packages_providers_TvProvider" />
   <project path="packages/providers/UserDictionaryProvider" name="CyanogenMod/android_packages_providers_UserDictionaryProvider" />
