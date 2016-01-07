@@ -55,12 +55,6 @@
   <project path="device/qcom/sepolicy" name="SudaMod/android_device_qcom_sepolicy" remote="suda" revision="sm-2.0" />
 <!-- END SUDAMOD -->
 
-<!-- BEGIN MOKEE -->
-  <project path="packages/apps/ScreenRecorder" name="MoKee/android_packages_apps_ScreenRecorder" revision="mkl-mr1" />
-  <project path="prebuilts/gcc/linux-x86/arm/uber-arm-eabi-4.8" name="MoKee/android_prebuilts_gcc_linux-x86_arm_uber-arm-eabi-4.8" revision="mkl-mr1" />
-  <project path="prebuilts/gcc/linux-x86/arm/uber-arm-linux-androideabi-4.8" name="MoKee/android_prebuilts_gcc_linux-x86_arm_uber-arm-linux-androideabi-4.8" revision="mkl-mr1" />
-<!-- END MOKEE -->
-
 <!-- BEGIN CYANOGENMOD -->
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
