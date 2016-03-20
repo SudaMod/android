@@ -52,7 +52,7 @@
   <project path="system/extras/su" remote="suda" revision="sm-2.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-2.0" name="SudaMod/android_vendor_sm" />
   <project path="vendor/cmsdk" name="SudaMod/cm_platform_sdk" />
-  <project path="external/sepolicy" name="SudaMod/android_external_sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="SudaMod/android_external_sepolicy" groups="pdk" remote="suda" revision="cm-13.0" />
   <project path="device/qcom/sepolicy" name="SudaMod/android_device_qcom_sepolicy" remote="suda" revision="sm-2.0" />
 <!-- END SUDAMOD -->
 
