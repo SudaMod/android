@@ -52,7 +52,7 @@ Syncing the source
 
 [Hint: This might take a long time as the source is about 13GB+]
 
-  $  repo sync -c -f -j8 --force-sync --no-clone-bundle
+    $  repo sync -c -f -j8 --force-sync --no-clone-bundle
 
 
 
