@@ -4,7 +4,7 @@
   <remote  name="aosp"
            fetch="https://android.googlesource.com"
            review="android-review.googlesource.com"
-           revision="refs/tags/android-6.0.1_r24" />
+           revision="refs/tags/android-6.0.1_r30" />
 
   <remote name="suda"
           fetch="https://github.com"
@@ -107,6 +107,7 @@
   <project path="external/iptables" name="CyanogenMod/android_external_iptables" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/jarjar" name="CyanogenMod/android_external_jarjar" groups="pdk" />
   <project path="external/jpeg" name="CyanogenMod/android_external_jpeg" groups="pdk" />
+  <project path="external/json-c" name="CyanogenMod/android_external_json-c" />
   <project path="external/jsr305" name="CyanogenMod/android_external_jsr305" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/koush/AndroidAsync" name="CyanogenMod/AndroidAsync" />
   <project path="external/koush/ion" name="CyanogenMod/ion" />
@@ -283,6 +284,11 @@
   <project path="system/qcom" name="CyanogenMod/android_system_qcom" groups="qcom" />
   <project path="system/security" name="CyanogenMod/android_system_security" groups="pdk" />
   <project path="system/vold" name="CyanogenMod/android_system_vold" groups="pdk" />
+
+<!-- CMSDK SAMPLES -->
+  <project path="vendor/cmsdk/samples/weatherproviderservice" name="CyanogenMod/android_packages_apps_WundergroundWeatherProvider" />
+<!-- END CMSDK SAMPLES -->
+
 <!-- END CYANOGENMOD -->
 
 <!-- BEGIN AOSP -->
