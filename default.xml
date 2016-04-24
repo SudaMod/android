@@ -55,6 +55,7 @@
   <project path="external/sepolicy" name="SudaMod/android_external_sepolicy" groups="pdk" remote="suda" revision="cm-13.0" />
   <project path="device/qcom/sepolicy" name="SudaMod/android_device_qcom_sepolicy" remote="suda" revision="sm-2.0" />
   <project path="packages/apps/Trebuchet" name="SudaMod/android_packages_apps_Trebuchet" remote="suda" revision="sm-2.0"  />
+  <project path="packages/apps/doze" name="SudaMod/android_packages_apps_doze" remote="suda" revision="sm-2.0"  />
 <!-- END SUDAMOD -->
 
 <!-- BEGIN CYANOGENMOD -->
