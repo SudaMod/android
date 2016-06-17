@@ -23,7 +23,7 @@
            
   <!-- KYLEPROXX -->
   <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_kylepro" remote="github" revision="cm-12.1" />
-  <project path="device/samsung/kyleprods" name="sostkandroid_device_samsung_kyleprods-1" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/kyleprods" name="sostk/android_device_samsung_kyleprods-1" remote="github" revision="cm-12.1" />
   <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
   <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
   <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
