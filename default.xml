@@ -54,7 +54,6 @@
 		   	   
 <!-- BEGIN CYANOGENMOD -->
   <project path="build/kati" name="CyanogenMod/android_build_kati" groups="pdk,tradefed" />
-  <project path="android" name="CyanogenMod/android" />
   <project path="abi/cpp" name="CyanogenMod/android_abi_cpp" groups="pdk" />
   <project path="art" name="CyanogenMod/android_art" groups="pdk" />
   <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" />
