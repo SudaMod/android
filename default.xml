@@ -51,7 +51,7 @@
   <project path="system/core" remote="suda" revision="sm-3.0" name="SudaMod/android_system_core" groups="pdk" /> 
   <project path="system/extras/su" remote="suda" revision="sm-3.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-3.0" name="SudaMod/android_vendor_sm" />
-  <project path="vendor/cmsdk" remote="suda" revision="cm-14.0" name="CyanogenMod/cm_platform_sdk" />
+  <project path="vendor/cmsdk" remote="suda" revision="cm-14.0" name="SudaMod/cm_platform_sdk" />
 <!-- END SUDAMOD -->		   
 		   	   
   <!-- AOSP Projects -->
