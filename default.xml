@@ -20,7 +20,14 @@
   <default revision="refs/heads/cm-12.1"
            remote="github"
            sync-c="true" />
-
+           
+  <!-- KYLEPROXX -->
+  <project path="device/samsung/kylepro" name="SandPox/android_device_samsung_kylepro" remote="github" revision="cm-12.1" />
+  <project path="device/samsung/kyleprods" name="sostk/android_device_samsung_kyleprods-1" remote="github" revision="cm-12.1" />
+  <project path="kernel/samsung/kyleproxx" name="SandPox/android_kernel_samsung_kyleproxx" remote="github" revision="cm-12.1" />
+  <project path="vendor/samsung/kyleproxx" name="SandPox/android_vendor_samsung_kyleproxx" remote="github" revision="master" />
+  <project path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" name="platform/prebuilts/gcc/linux-x86/arm/arm-eabi-4.7" groups="pdk,linux,arm" clone-depth="1" remote="aosp" revision="refs/tags/android-4.4.4_r2.0.1" />
+  
   <!-- SudaMod Begin -->
   <project path="build" remote="suda" revision="sm-1.1" name="SudaMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -479,8 +486,8 @@
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" />
   <project path="packages/apps/BasicSmsReceiver" name="CyanogenMod/android_packages_apps_BasicSmsReceiver" />
-  <project path="packages/apps/Bluetooth" name="CyanogenMod/android_packages_apps_Bluetooth" />
-  <project path="packages/apps/BluetoothExt" name="CyanogenMod/android_packages_apps_BluetoothExt" />
+  <project path="packages/apps/Bluetooth" name="sostk/android_packages_apps_Bluetooth" remote="github" revision="cm-12.1" />
+  <project path="packages/apps/BluetoothExt" name="sostk/android_packages_apps_BluetoothExt" remote="github" revision="cm-12.1" />
   <project path="packages/apps/Camera2" name="CyanogenMod/android_packages_apps_Camera2" />
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" />
   <!-- <project path="packages/apps/CMHome" name="CyanogenMod/android_packages_apps_CMHome" /> -->
