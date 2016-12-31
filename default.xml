@@ -22,7 +22,7 @@
            sync-c="true"
            sync-j="4" />
 
-
+ -<!-- BEGIN SUDAMOD --> 
   <project path="build" remote="suda" revision="sm-3.0" name="SudaMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
