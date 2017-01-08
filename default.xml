@@ -45,6 +45,7 @@
   <project path="packages/apps/Messaging" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs" />
   <project path="packages/apps/PhoneCommon" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Settings" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" />
+  <project path="packages/apps/SetupWizard" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_SetupWizard" />
   <project path="packages/apps/Stk" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Stk" groups="apps_stk,pdk-fs" />  
   <project path="packages/apps/Trebuchet" name="SudaMod/android_packages_apps_Trebuchet" remote="suda" revision="sm-3.0" />
   <project path="packages/providers/ContactsProvider" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_providers_ContactsProvider" /> 
