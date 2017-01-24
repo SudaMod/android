@@ -32,6 +32,7 @@
   <project path="external/noto-fonts" remote="suda" revision="sm-3.0" name="SudaMod/android_external_noto-fonts" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
   <project path="frameworks/base" remote="suda" revision="sm-3.0" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/av" remote="suda" revision="sm-3.0" name="SudaMod/android_frameworks_av" groups="pdk" />
   <project path="packages/apps/Browser" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Browser" groups="pdk-fs" /> 
   <project path="packages/apps/Calendar" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" />  
   <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
@@ -338,7 +339,6 @@
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
   <project path="external/zopfli" name="platform/external/zopfli" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="external/zxing" name="platform/external/zxing" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/av" name="LineageOS/android_frameworks_av" groups="pdk" />
   <project path="frameworks/compile/libbcc" name="platform/frameworks/compile/libbcc" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/mclinker" name="platform/frameworks/compile/mclinker" groups="pdk" remote="aosp" />
   <project path="frameworks/compile/slang" name="platform/frameworks/compile/slang" groups="pdk" remote="aosp" />
