@@ -61,7 +61,7 @@
 <!-- END SUDAMOD -->
 
 <!-- BEGIN SMARTISANOS -->
-  <project path="frameworks/smartisanos-base" revision="smartisan-m" name="SmartisanTech/android_frameworks_smartisanos-base" groups="pdk" remote="github" revision="refs/heads/smartisan-m"/>
+  <project path="frameworks/smartisanos-base" revision="smartisan-m" name="SmartisanTech/android_frameworks_smartisanos-base" groups="pdk" remote="github" revision="smartisan-m"/>
   <project path="packages/apps/OneStep" revision="smartisan-m-onestep_bigboom" name="SmartisanTech/packages_apps_OneStep" groups="pdk-fs" remote="github" />
   <project path="packages/apps/BigBang" revision="smartisan-m-onestep_bigboom" name="SmartisanTech/packages_apps_BigBang" groups="pdk-fs" remote="github" />
 <!-- END SMARTISANOS -->
