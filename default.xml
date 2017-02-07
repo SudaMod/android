@@ -40,6 +40,7 @@
   <project path="packages/apps/ContactsCommon" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
   <project path="packages/apps/CMFileManager" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_CMFileManager" />
   <project path="packages/apps/CMParts" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_CMParts" />
+  <project path="packages/apps/CMUpdater" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_CMUpdater" />
   <project path="packages/apps/DeskClock" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_DeskClock" groups="pdk-fs" />  
   <project path="packages/apps/Dialer" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Eleven" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Eleven" />
