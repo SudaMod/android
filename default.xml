@@ -23,13 +23,14 @@
            sync-j="4" />
 
 <!-- BEGIN SUDAMOD -->
-  <project path="build" remote="suda" revision="sm-2.0" name="SudaMod/android_build" groups="pdk" >
+  <project path="build" remote="suda" revision="sm-2.0-st" name="SudaMod/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
   <project path="android" remote="suda" revision="sm-2.0" name="SudaMod/android" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-2.0" name="SudaMod/android_external_suda_SudaSDKs" />
-  <project path="frameworks/base" remote="suda" revision="sm-2.0" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/base" remote="suda" revision="sm-2.0-st" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" remote="suda" revision="sm-2.0-st" name="SudaMod/android_frameworks_native" groups="pdk" />
   <project path="packages/apps/Browser" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Browser" groups="pdk-fs" /> 
   <project path="packages/apps/Calendar" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" />  
   <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="sm-2.0" name="SudaMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
@@ -53,12 +54,12 @@
   <project path="system/extras/su" remote="suda" revision="sm-2.0" name="SudaMod/android_system_extras_su" />   
   <project path="vendor/sm" remote="suda" revision="sm-2.0" name="SudaMod/android_vendor_sm" />
   <project path="vendor/cmsdk" name="SudaMod/cm_platform_sdk" />
-  <project path="external/sepolicy" name="SudaMod/android_external_sepolicy" groups="pdk" remote="suda" revision="cm-13.0" />
+  <project path="external/sepolicy" name="SudaMod/android_external_sepolicy" groups="pdk" remote="suda" revision="sm-2.0-st" />
   <project path="device/qcom/sepolicy" name="SudaMod/android_device_qcom_sepolicy" remote="suda" revision="sm-2.0" />
   <project path="packages/apps/Trebuchet" name="SudaMod/android_packages_apps_Trebuchet" remote="suda" revision="sm-2.0"  />
   <project path="packages/apps/doze" name="SudaMod/android_packages_apps_doze" remote="suda" revision="sm-2.0"  />
 <!-- END SUDAMOD -->
-
+  
 <!-- BEGIN LINEAGEOS -->
   <project path="build" name="LineageOS/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -189,7 +190,6 @@
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="LineageOS/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="LineageOS/android_frameworks_opt_bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="LineageOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -319,6 +319,12 @@
 <!-- END CMSDK SAMPLES -->
 
 <!-- END LINEAGEOS -->
+  
+ <!-- BEGIN SMARTISANOS -->
+  <project path="frameworks/smartisanos-base" revision="smartisan-m" name="SmartisanTech/android_frameworks_smartisanos-base" groups="pdk" remote="github" />
+  <project path="packages/apps/OneStep" revision="smartisan-m-onestep_bigboom" name="SmartisanTech/packages_apps_OneStep" groups="pdk-fs" remote="github" />
+  <project path="packages/apps/BigBang" revision="smartisan-m-onestep_bigboom" name="SmartisanTech/packages_apps_BigBang" groups="pdk-fs" remote="github" />
+<!-- END SMARTISANOS -->
 
 <!-- BEGIN AOSP -->
   <project path="developers/build" name="platform/developers/build" remote="aosp" />
