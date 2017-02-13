@@ -31,8 +31,9 @@
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-3.0" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="external/noto-fonts" remote="suda" revision="sm-3.0" name="SudaMod/android_external_noto-fonts" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
-  <project path="frameworks/base" remote="suda" revision="sm-3.0" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/av" remote="suda" revision="sm-3.0" name="SudaMod/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" remote="suda" revision="sm-3.0" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/native" remote="suda" revision="sm-3.0" name="SudaMod/android_frameworks_native" groups="pdk" />
   <project path="packages/apps/Browser" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Browser" groups="pdk-fs" /> 
   <project path="packages/apps/Calendar" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" />  
   <project path="packages/apps/CellBroadcastReceiver" remote="suda" revision="sm-3.0" name="SudaMod/android_packages_apps_CellBroadcastReceiver" groups="pdk-fs" />
@@ -347,7 +348,6 @@
   <project path="frameworks/minikin" name="platform/frameworks/minikin" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/ml" name="platform/frameworks/ml" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/multidex" name="platform/frameworks/multidex" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
-  <project path="frameworks/native" name="LineageOS/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="platform/frameworks/opt/bitmap" groups="pdk-fs" remote="aosp" />
   <project path="frameworks/opt/bluetooth" name="platform/frameworks/opt/bluetooth" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="frameworks/opt/calendar" name="platform/frameworks/opt/calendar" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
