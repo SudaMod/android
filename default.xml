@@ -67,8 +67,10 @@
   <project path="device/qcom/sepolicy" revision="sm-3.1" name="SudaMod/android_device_qcom_sepolicy" />
 <!-- END SUDAMOD -->
 
+  <!-- GAOJIXIAN -->
+    <project path="packages/apps/gaojixian" remote="suda" revision="sm-3.1" name="SudaMod/android_packages_apps_gaojixian" />
+  
   <!-- AOSP Projects -->
-
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
