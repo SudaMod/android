@@ -25,7 +25,7 @@
            sync-c="true"
            sync-j="4" />
 
- -<!-- BEGIN SUDAMOD --> 
+  <!-- BEGIN SUDAMOD --> 
   <project path="build" remote="suda" revision="sm-3.1" name="SudaMod/android_build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
@@ -65,12 +65,13 @@
   <project path="vendor/sm" remote="suda" revision="sm-3.1" name="SudaMod/android_vendor_sm" />
   <project path="vendor/cmsdk" remote="suda" revision="cm-14.1" name="SudaMod/cm_platform_sdk" />
   <project path="device/qcom/sepolicy" revision="sm-3.1" name="SudaMod/android_device_qcom_sepolicy" />
-<!-- END SUDAMOD -->
+  <!-- END SUDAMOD -->
 
   <!-- GAOJIXIAN -->
-    <project path="packages/apps/gaojixian" remote="suda" revision="sm-3.1" name="SudaMod/android_packages_apps_gaojixian" />
+  <project path="packages/apps/gaojixian" remote="suda" revision="sm-3.1" name="SudaMod/android_packages_apps_gaojixian" />
   
   <!-- AOSP Projects -->
+
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
   <project path="build/soong" name="platform/build/soong" groups="pdk,tradefed" remote="aosp" >
