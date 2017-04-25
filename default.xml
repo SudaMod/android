@@ -6,7 +6,7 @@
           review=".." />           
 
   <remote  name="github"
-           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/lineageOS/"
+           fetch=".."
            review="review.lineageos.org" />
 
   <remote  name="bitbucket"
