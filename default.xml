@@ -6,7 +6,7 @@
           review=".." />           
 
   <remote  name="github"
-           fetch=".."
+           fetch="https://mirrors.tuna.tsinghua.edu.cn/git/lineageOS/"
            review="review.lineageos.org" />
 
   <remote  name="bitbucket"
@@ -16,7 +16,7 @@
            fetch="ssh://git@github.com" />
 
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://aosp.tuna.tsinghua.edu.cn"
            review="android-review.googlesource.com"
            revision="refs/tags/android-7.1.2_r2" />
 
