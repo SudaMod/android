@@ -31,7 +31,6 @@
   </project>
 
   <project path="android" remote="suda" revision="sm-3.1" name="SudaMod/android" />
-  <project path="external/chromium-webview" remote="suda" revision="sm-3.1" name="SudaMod/android_external_chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-3.1" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="external/noto-fonts" remote="suda" revision="sm-3.1" name="SudaMod/android_external_noto-fonts" />
   <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-14.1" />
@@ -128,6 +127,7 @@
   <project path="external/ceres-solver" name="platform/external/ceres-solver" groups="pdk" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
+  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
