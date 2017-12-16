@@ -456,6 +456,7 @@
   <project path="packages/providers/TelephonyProvider" name="LineageOS/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/providers/TvProvider" name="LineageOS/android_packages_providers_TvProvider" groups="pdk-fs" />
   <project path="packages/providers/UserDictionaryProvider" name="LineageOS/android_packages_providers_UserDictionaryProvider" groups="pdk-cw-fs,pdk-fs" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" groups="pdk-fs" />
   <project path="packages/screensavers/Basic" name="LineageOS/android_packages_screensavers_Basic" groups="pdk-fs" />
   <project path="packages/screensavers/PhotoTable" name="LineageOS/android_packages_screensavers_PhotoTable" groups="pdk-fs" />
   <project path="packages/screensavers/WebView" name="LineageOS/android_packages_screensavers_WebView" groups="pdk-fs" />
