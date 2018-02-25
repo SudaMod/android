@@ -45,6 +45,7 @@
   <project path="packages/apps/LineageParts" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_apps_LineageParts" />
   <project path="packages/apps/Settings" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
+  <project path="system/core" remote="suda" revision="sm-4.1" name="SudaMod/android_system_core" groups="pdk" />
   <project path="vendor/sm" remote="suda" revision="sm-4.1" name="SudaMod/android_vendor_sm" />
 
   <!-- END SUDAMOD -->
@@ -540,7 +541,6 @@
   <project path="system/chre" name="platform/system/chre" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wificond" name="platform/system/connectivity/wificond" groups="pdk" remote="aosp" />
   <project path="system/connectivity/wifilogd" name="platform/system/connectivity/wifilogd" groups="pdk" remote="aosp" />
-  <project path="system/core" name="LineageOS/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
   <project path="system/hardware/interfaces" name="platform/system/hardware/interfaces" groups="pdk" remote="aosp" />
