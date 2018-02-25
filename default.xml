@@ -47,7 +47,7 @@
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
   <project path="system/core" remote="suda" revision="sm-4.1" name="SudaMod/android_system_core" groups="pdk" />
   <project path="vendor/sm" remote="suda" revision="sm-4.1" name="SudaMod/android_vendor_sm" />
-
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.1" />
   <!-- END SUDAMOD -->
 
   <!-- AOSP Projects -->
