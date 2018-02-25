@@ -34,9 +34,15 @@
     <linkfile src="tools" dest="build/tools" />
     <linkfile src="UpdateProject" dest="build/UpdateProject" />
   </project>
+  <project path="build/soong" name="SudaMod/android_build_soong" groups="pdk,tradefed" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
+  </project>
   <project path="android" remote="suda" revision="sm-4.1" name="SudaMod/android" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-4.1" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="frameworks/base" remote="suda" revision="sm-4.1" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="lineage-sdk" remote="suda" revision="sm-4.1" name="SudaMod/android_lineage-sdk" />
+  <project path="packages/apps/LineageParts" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_apps_LineageParts" />
   <project path="packages/apps/Settings" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
   <project path="vendor/sm" remote="suda" revision="sm-4.1" name="SudaMod/android_vendor_sm" />
@@ -47,10 +53,6 @@
 
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" remote="aosp" />
   <project path="build/kati" name="LineageOS/android_build_kati" groups="pdk,tradefed" />
-  <project path="build/soong" name="LineageOS/android_build_soong" groups="pdk,tradefed" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
   <project path="bionic" name="LineageOS/android_bionic" groups="pdk" />
   <project path="bootable/recovery" name="LineageOS/android_bootable_recovery" groups="pdk" />
