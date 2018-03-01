@@ -22,6 +22,9 @@
            sync-c="true"
            sync-j="4" />
 
+  <remote  name="bb"
+            fetch="https://bitbucket.org/xanaxdroid/" />
+
   <!-- BEGIN SUDAMOD --> 
 
   <project path="build/make" remote="suda" revision="sm-4.1" name="SudaMod/android_build" groups="pdk" >
@@ -109,7 +112,7 @@
   <project path="external/cblas" name="platform/external/cblas" groups="pdk" remote="aosp" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" groups="pdk" remote="aosp" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" remote="aosp" />
-  <project path="external/chromium-webview" name="LineageOS/android_external_chromium-webview" groups="pdk" clone-depth="1" />
+  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="bb" revision="eightone" />
   <project path="external/clang" name="platform/external/clang" groups="pdk" remote="aosp" />
   <project path="external/cmockery" name="platform/external/cmockery" groups="pdk" remote="aosp" />
   <project path="external/compiler-rt" name="platform/external/compiler-rt" groups="pdk" remote="aosp" />
