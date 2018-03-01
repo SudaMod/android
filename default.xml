@@ -3,6 +3,7 @@
 
   <remote name="suda"
           fetch="https://github.com"
+          revision="refs/heads/sm-4.1"
           review=".." />   
 
   <remote  name="github"
