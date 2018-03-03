@@ -16,7 +16,6 @@
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
-  <project path="external/chromium-webview" name="external_chromium-webview" groups="pdk" remote="bb" revision="eightone" />
   <project path="external/icu" name="SudaMod/android_external_icu" groups="pdk" remote="suda" revision="sm-4.1" />
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-4.1" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="device/qcom/common" remote="github" revision="lineage-15.1" name="LineageOS/android_device_qcom_common" />
