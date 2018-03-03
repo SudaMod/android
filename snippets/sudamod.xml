@@ -29,6 +29,7 @@
   <project path="packages/apps/LineageParts" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_apps_LineageParts" />
   <project path="packages/apps/Settings" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" />
   <project path="packages/apps/Trebuchet" name="SudaMod/android_packages_apps_Trebuchet" remote="suda" />
+  <project path="packages/apps/Updater" name="SudaMod/android_packages_apps_Updater" remote="suda" />
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-4.1" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
   <project path="packages/services/Telecomm" name="SudaMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="suda" />
   <project path="packages/services/Telephony" name="SudaMod/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="suda" />
