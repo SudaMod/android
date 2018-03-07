@@ -18,9 +18,8 @@
   </project>
   <project path="external/suda/SudaSDKs" remote="suda" revision="sm-4.1" name="SudaMod/android_external_suda_SudaSDKs" />
   <project path="device/qcom/common" remote="github" revision="lineage-15.1" name="LineageOS/android_device_qcom_common" />
-
-  <project path="frameworks/opt/datetimepicker" name="LineageOS/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-4.1" />
   <project path="frameworks/base" remote="suda" revision="sm-4.1" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/opt/datetimepicker" name="SudaMod/android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-4.1" />
   <project path="hardware/qcom/audio-caf/msm8952" name="SudaMod/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk" revision="lineage-15.1-caf-8952" />
   <project path="hardware/qcom/media-caf/msm8952" name="SudaMod/android_hardware_qcom_media" groups="qcom,pdk" revision="lineage-15.1-caf-8952" />
   <project path="lineage-sdk" remote="suda" revision="sm-4.1" name="SudaMod/android_lineage-sdk" />
