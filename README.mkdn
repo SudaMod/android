@@ -42,7 +42,7 @@ Giving the repo binary the proper permissions
 
 Creating directory for where the SudaMod repo will be stored and synced
 
-    $ mkdir ~/SudaMod $ cd ~/SudaMod
+    $ mkdir ~/SudaMod && cd ~/SudaMod
 
 Initializing the SudaMod repo and downloading the manifest
 
