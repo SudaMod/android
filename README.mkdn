@@ -4,7 +4,7 @@ SudaMod
 Getting Started
 ---------------
 
-###Initializing the environment
+### Initializing the environment
 
 [Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
 
@@ -16,7 +16,7 @@ Let that install and then proceed. More copy and paste:
 
     $ sudo apt-get update && sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk3.0-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-8-jre openjdk-8-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp liblz4-tool pngquant rsync
 
-###Getting the Source
+### Getting the Source
 
 Making required directories
 Obtaining the repo binary
@@ -56,7 +56,7 @@ Syncing the source
 
 
 
-###Setting Up CCache
+### Setting Up CCache
 
 CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build SudaMod faster than standard build times (Able to cut-down 50% of time taken to build).
 
@@ -68,7 +68,7 @@ To set up CCache, follow the following:
 
 -M 50G The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
 
-###To build SudaMod
+### To build SudaMod
 
     $ cd ~/SudaMod 
     
