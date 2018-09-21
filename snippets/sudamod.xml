@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project path="android" name="SudaMod/android" remote="suda" revision="sm-5.0" />
+  <project path="frameworks/base" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-5.0" />
+  <project path="packages/apps/Settings" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" remote="suda" revision="sm-5.0" />
+  <project path="vendor/lineage" name="SudaMod/android_vendor_lineage" remote="suda" revision="sm-5.0" />
+</manifest>
