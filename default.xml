@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="suda"
+          fetch="https://github.com"
+          revision="refs/heads/sm-4.1"
+          review=".." />  
+
   <remote  name="github"
            fetch=".."
            review="review.lineageos.org" />
