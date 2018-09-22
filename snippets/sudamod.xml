@@ -2,7 +2,7 @@
 <manifest>
   <project path="android" name="SudaMod/android" remote="suda" revision="sm-5.0" />
   <project path="frameworks/base" name="SudaMod/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-5.0" />
-  <project path="build/make" name="SudaMod/android_build" groups="pdk"　remote="suda" revision="sm-5.0" >
+  <project path="build/make" name="SudaMod/android_build" groups="pdk" remote="suda" revision="sm-5.0" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -11,15 +11,15 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="external/suda/SudaSDKs" name="SudaMod/android_external_suda_SudaSDKs"　remote="suda" revision="sm-5.0" />
+  <project path="external/suda/SudaSDKs" name="SudaMod/android_external_suda_SudaSDKs" remote="suda" revision="sm-5.0" />
 
-  <project path="packages/apps/Contacts" name="SudaMod/android_packages_apps_Contacts" groups="pdk-fs"　remote="suda" revision="sm-5.0"　/>
-  <project path="packages/apps/Calendar" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs"　remote="suda" revision="sm-5.0"　/>
-  <project path="packages/apps/Eleven" name="SudaMod/android_packages_apps_Eleven"　remote="suda" revision="sm-5.0" />
-  <project path="packages/apps/Messaging" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs"　remote="suda" revision="sm-5.0" />
+  <project path="packages/apps/Contacts" name="SudaMod/android_packages_apps_Contacts" groups="pdk-fs" remote="suda" revision="sm-5.0" />
+  <project path="packages/apps/Calendar" name="SudaMod/android_packages_apps_Calendar" groups="pdk-fs" remote="suda" revision="sm-5.0" />
+  <project path="packages/apps/Eleven" name="SudaMod/android_packages_apps_Eleven" remote="suda" revision="sm-5.0" />
+  <project path="packages/apps/Messaging" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs" remote="suda" revision="sm-5.0" />
   <project path="packages/apps/Settings" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" remote="suda" revision="sm-5.0" />
-  <project path="packages/services/Telecomm" name="SudaMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs"　remote="suda" revision="sm-5.0" />
-  <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs"　remote="suda" revision="sm-5.0" />
+  <project path="packages/services/Telecomm" name="SudaMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-5.0" />
+  <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-5.0" />
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-5.0" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
 
   <project path="vendor/lineage" name="SudaMod/android_vendor_lineage" remote="suda" revision="sm-5.0" />
