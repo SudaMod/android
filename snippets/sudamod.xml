@@ -19,7 +19,7 @@
   <project path="packages/apps/Messaging" name="SudaMod/android_packages_apps_Messaging" groups="pdk-fs" remote="suda" revision="sm-5.0" />
   <project path="packages/apps/Settings" name="SudaMod/android_packages_apps_Settings" groups="pdk-fs" remote="suda" revision="sm-5.0" />
   <project path="packages/services/Telecomm" name="SudaMod/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-5.0" />
-  <project path="packages/providers/ContactsProvider" name="LineageOS/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-5.0" />
+  <project path="packages/providers/ContactsProvider" name="SudaMod/android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="suda" revision="sm-5.0" />
   <project path="packages/providers/PhoneLocationProvider" remote="suda" revision="sm-5.0" name="SudaMod/android_packages_provider_PhoneLocationProvider" />
 
   <project path="vendor/lineage" name="SudaMod/android_vendor_lineage" remote="suda" revision="sm-5.0" />
