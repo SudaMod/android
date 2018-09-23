@@ -10,6 +10,7 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
+    <linkfile src="UpdateProject" dest="build/UpdateProject" />
   </project>
   <project path="external/suda/SudaSDKs" name="SudaMod/android_external_suda_SudaSDKs" remote="suda" revision="sm-5.0" />
 
