@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="sdhz150"
+           fetch="https://github.com/sdhz152"
+           revision="refs/heads/lineage-17.1" />
+
+  <project path="android" name="android" remote="sdhz150" />
+  <project path="build/make" name="android_build" remote="sdhz150" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+    <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
+    <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
+    <linkfile src="core" dest="build/core" />
+    <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
+    <linkfile src="target" dest="build/target" />
+    <linkfile src="tools" dest="build/tools" />
+  </project>
+
+  <!-- Arrow Core Repos -->
+  <project path="frameworks/base" name="android_frameworks_base" remote="sdhz150" />
+  <project path="vendor/lineage" name="android_vendor_lineage" remote="sdhz150" />
+
+  <!-- Arrow Packages Repos -->
+  <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="sdhz150" />
+  <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sdhz150" />
+  <project path="packages/apps/Dialer" name="android_packages_apps_Dialer" remote="sdhz150" />
+  <project path="packages/apps/Trebuchet" name="android_packages_apps_Trebuchet" remote="sdhz150" />
+  <project path="packages/apps/Eleven" name="android_packages_apps_Eleven" remote="sdhz150" />
+  <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" remote="sdhz150" />
+  <project path="packages/providers/PhoneLocationProvider" name="android_packages_provider_PhoneLocationProvider" remote="sdhz150" />
+  <project path="packages/services/Telecomm" name="android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="sdhz150" />
+  <project path="external/suda/SudaSDKs" name="android_external_suda_SudaSDKs" remote="sdhz150" />
+  <project path="packages/providers/ContactsProvider" name="android_packages_providers_ContactsProvider" groups="pdk-cw-fs,pdk-fs" remote="sdhz150" />
+</manifest>
