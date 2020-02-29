@@ -1,37 +1,93 @@
-LineageOS
+SudaMod
 ===========
 
-Getting started
+Getting Started
 ---------------
 
-To get started with Android/LineageOS, you'll need to get
-familiar with [Repo](https://source.android.com/source/using-repo.html) and [Version Control with Git](https://source.android.com/source/version-control.html).
+### Initializing the environment
 
-To initialize your local repository using the LineageOS trees, use a command like this:
-```
-repo init -u git://github.com/sdhz152/android.git -b lineage-17.1
-```
-Then to sync up:
-```
-repo sync
-```
-Please see the [LineageOS Wiki](https://wiki.lineageos.org/) for building instructions, by device.
+[Hint: This command updates the Ubuntu Packages List (Install Listing) and install the required version of Java]
+
+    $ sudo apt-get install openjdk-8-jdk
+
+Let that install and then proceed. More copy and paste:
+
+[Hint: Running this command installs the other required packages to build android]
+
+    $ sudo apt-get update && sudo apt-get install git-core gnupg flex bison gperf libsdl1.2-dev libesd0-dev libwxgtk3.0-dev squashfs-tools build-essential zip curl libncurses5-dev zlib1g-dev openjdk-8-jre openjdk-8-jdk pngcrush schedtool libxml2 libxml2-utils xsltproc lzop libc6-dev schedtool g++-multilib lib32z1-dev lib32ncurses5-dev gcc-multilib maven tmux screen w3m ncftp liblz4-tool pngquant rsync
+
+### Getting the Source
+
+Making required directories
+Obtaining the repo binary
+Adding repo binary to your path
+Giving the repo binary proper permissions
+Initializing an empty repo
+Syncing the repo
+Alright, so now we’re getting there. I have outlined the basics of what we’re about to do and broke them down as I know them. This is all pretty much going to be copy/paste so it’ll be fairly difficult to screw this up :) Make directory for the repo binary
+
+    $ mkdir ~/bin
+
+Add directory for the repo binary to its path
+
+    $ PATH=~/bin:$PATH
+
+Downloading repo binary and placing it in the proper directory
+
+    $ curl http://commondatastorage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+
+Giving the repo binary the proper permissions
+
+    $ chmod a+x ~/bin/repo
+
+Creating directory for where the SudaMod repo will be stored and synced
+
+    $ mkdir ~/SudaMod && cd ~/SudaMod
+
+Initializing the SudaMod repo and downloading the manifest
+
+    $ repo init -u git://github.com/SudaMod/android.git -b sm-6.1
+
+Syncing the source
+
+[Hint: This might take a long time as the source is about 13GB+]
+
+    $  repo sync -c -f -j8 --force-sync --no-clone-bundle
 
 
-Submitting patches
-------------------
-Patches are always welcome! Please submit your patches via LineageOS Gerrit!
 
-Simply follow our guide on [how to submit patches](https://wiki.lineageos.org/submitting-patch-howto.html).
+### Setting Up CCache
 
-To view the status of your and others' patches, visit [LineageOS Gerrit Code Review](https://review.lineageos.org/).
+CCache is a method of utilizing a specified storage space to speed up building. It can be referred to as the same caching your android device does to speed up application and system boot times. In this case, CCache will help build SudaMod faster than standard build times (Able to cut-down 50% of time taken to build).
 
+To set up CCache, follow the following:
 
-Buildbot
---------
+    $ echo "export USE_CCACHE=1" >> ~/.bashrc
 
-All supported devices are built weekly and periodically as changes are committed to ensure the source trees remain buildable.
+    $ ~/SudaMod/prebuilts/misc/linux-x86/ccache/ccache -M 50G
 
-You can view the current build statuses at [LineageOS Jenkins](https://jenkins.lineageos.org/).
+-M 50G The number before the letter G at the end specifies the amount of space CCache can use in your storage unit. As such, ensure that not too much of space is specified as this might result in unexpected errors although, the more storage you have, its recommended to have more CCache as it will increase the build times. Most efficient build systems are able to utilize CCache to about 120G or more.
 
-Builds produced weekly by the buildbot can be downloaded from [LineageOS downloads](https://download.lineageos.org/).
+### To build SudaMod
+
+    $ cd ~/SudaMod
+
+    $ . build/envsetup.sh
+
+    $ breakfast "device name"
+
+    $ brunch "device name"
+
+or make is all one line.
+
+    $ . build/envsetup.sh && breakfast "device name" && brunch "device name"
+
+Obtaining the zip created from the build process
+
+To get the zip file that has been built, navigate to the following directory and find for the zip file:
+
+    $ cd ~/SudaMod/out/target/product/
+
+If you found it, then congratulations! If you didn't, try retrying the build process but before doing so, ensure you do the following to make sure your next build is clean;
+
+    $ cd ~/SudaMod && make clean && repo sync -j 16
