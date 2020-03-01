@@ -20,7 +20,7 @@
   <project path="frameworks/base" name="android_frameworks_base" remote="sdhz150" />
   <project path="vendor/lineage" name="android_vendor_lineage" remote="sdhz150" />
   <project path="frameworks/opt/datetimepicker" name="android_frameworks_opt_datetimepicker" groups="pdk-cw-fs,pdk-fs" remote="sdhz150" />
-  <project path="system/core" name="system_core" groups="pdk" remote="sdhz150" />
+  <project path="system/core" name="android_system_core" groups="pdk" remote="sdhz150" />
   <!-- Arrow Packages Repos -->
   <project path="packages/apps/Calendar" name="android_packages_apps_Calendar" remote="sdhz150" />
   <project path="packages/apps/Contacts" name="android_packages_apps_Contacts" remote="sdhz150" />
